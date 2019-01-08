@@ -1,0 +1,56 @@
+<br>
+<div id="burger-img"><img src="../assets/images/hamburger-3184108_640.png" id="burger-image">
+</div>
+<h1>Eat-Da-Burger!</h1>
+<div class="container">
+    <div class="row no-gutters">
+        <div class="col-lg-6 col-sm-12" id="left-content">
+            <h3 class="column-header">Burgers to eat!</h3>
+            <ul>
+                {{#each burgers}}
+                {{#unless devoured}}
+                <div class="uneaten-burger-div">
+                    <div class="uneaten-burger-list">
+                        <li>
+                            {{id}}. {{burger_name}}
+                        </li>
+                    </div>
+                    <button class="burger-delete-button" data-id="{{this.id}}">Devour!</button>
+                </div>
+                {{/unless}}
+                {{/each}}
+            </ul>
+            <br>
+        </div>
+
+        <div class="col-lg-6 col-sm-12" id="right-content">
+            <h3 class="column-header">Burgers that have been eaten.</h3>
+            <ul>
+                {{#each burgers}}
+                {{#if devoured}}
+                <div class="eaten-burger-list">
+                    <li>
+                        {{id}}. {{burger_name}}
+                    </li>
+                </div>
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+<form class="create-form">
+    <div class="text-center">
+        <div class="form-group">
+            <div id="burger-div">
+                <input type="text" class="form-control" id="new-burger" required>
+            </div>
+            <br>
+            <button class="btn btn-primary" id="burger-button" type="submit">Submit</button>
+        </div>
+    </div>
+</form>
+
+<br>
+<h3>Enter a burger you want to eat and click the "Submit" button.</h3>

@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(235, 225, 170);
+    font-family: 'Catamaran',
+        sans-serif;
+    width: auto;
+}
+
+#burger-img {
+    text-align: center;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgb(22, 22, 22));
+}
+
+.uneaten-burger-div {
+    display: flex;
+    margin: 5px auto;
+}
+
+.uneaten-burger-list {
+    background-color: aliceblue;
+    width: 375px;
+    padding: 0 10px;
+    margin: 0 15px 0 0;
+}
+
+.burger-delete-button,
+.btn {
+    width: 120px;
+    background-color: #08236d;
+    color: white;
+    border-radius: 5px;
+    border-color: #04206b;
+}
+
+.burger-delete-button:hover {
+    background-color: #007bff;
+}
+
+
+.eaten-burger-list {
+    background-color: aliceblue;
+    margin: 5px 0;
+    padding: 0 10px;
+    /* width: 70%; */
+    opacity: .7;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    align-content: center;
+}
+
+.form-group {
+    width: 55%;
+    margin: 0 auto;
+}
+
+#submit-button {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Gochi Hand',
+        cursive;
+    font-size: 85px;
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(18, 18, 73);
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: darkred;
+}
+
+
+@media only screen and (min-width: 2480px) {
+    html {
+        max-width: 1440px;
+        align-content: center;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+
+    #burger-image {
+        width: 40%;
+        height: 40%;
+    }
+
+    ul {
+        font-size: 18px;
+    }
+
+    .eaten-burger-list,
+    .uneaten-burger-div {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .burger-delete-button {
+        width: 80px;
+        height: 28px;
+        font-size: 15px;
+    }
+
+    .eaten-burger-list {
+        margin: 10px 0;
+        width: 90%;
+        opacity: .7;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+}
