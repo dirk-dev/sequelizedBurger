@@ -1,4 +1,4 @@
-# Eat a Burger
+# sequelizedBurger
 
 ## Summary
 The user inputs the burger(s) they would like to eat to the `Eat a Burger` app. The app does a `POST` of user input to a MySQL database and updates the screen to reflect any additions. There is also `schema.sql` & `seeds.sql` files to set up the database and add the initial values. 
