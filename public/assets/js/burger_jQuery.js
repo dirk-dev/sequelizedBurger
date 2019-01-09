@@ -3,10 +3,11 @@ $(function () {
     //adds new burger to DB
     $(".create-form").on("submit", function (event) {
         event.preventDefault();
-
+        console.log('submitted')
         var newBurger = {
             burger_name: $("#new-burger").val().trim(),
         };
+        console.log(newBurger)
         // Send the POST request.
         $.ajax("/api/burgers", {
             type: "POST",
@@ -15,7 +16,7 @@ $(function () {
             function () {
                 console.log("new burger added!");
                 // Reload the page to get the updated burger lists
-                location.reload();
+                // location.reload();
             }
         );
     });
