@@ -4,7 +4,6 @@ module.exports = function (app) {
 
     app.get("/", function (req, res) {
         db.burger_model.findAll({}).then((result) => {
-            // console.log(result.dataValues)
             let burgerObject = {
                 burgers: result
             }
