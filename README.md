@@ -72,3 +72,5 @@ Each item has a button that allows the user to chose a burger to 'devour'. Click
 https://intense-thicket-35887.herokuapp.com/
 
 ## screenshot
+
+![Eat-Da-Burger Sequelized](public/assets/images/sequelized_burgers_app.png)
