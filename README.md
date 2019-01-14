@@ -67,4 +67,6 @@ Each item has a button that allows the user to chose a burger to 'devour'. Click
 - [Sequelize CLI package](https://www.npmjs.com/package/sequelize-cli)
 - [Twitter Bootstrap CSS framework](http://getbootstrap.com/)
 
+## [deployed app]()
+
 ## screenshot
