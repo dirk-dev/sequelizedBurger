@@ -1,8 +1,12 @@
 # sequelizedBurger
 
+![Eat-Da-Burger Sequelized](public/assets/images/sequelized_burgers_app.png)
+
+## [deployed app](https://intense-thicket-35887.herokuapp.com/)
+
 ## Purpose of the app
 
-`sequelizedBurger` was written to address the problem of how to create tables in a MySQL database, store user input, update that input when the user modifies it, and render the data to the screen. `Handlebars` is used to render the content on the screen. `SequelizedBurger` uses the `Sequelize` library for database queries. to store user input, and is an offshot of a previous app, `burger`, which used `mySQL` queries. The repo for this app is found here `https://github.com/dirk-kiesewetter/burger`.
+`sequelizedBurger` was written to address the problem of how to create tables in a MySQL database, store user input, update that input when the user modifies it, and render the data to the screen. `Handlebars` is used to render the content on the screen. `SequelizedBurger` uses the `Sequelize` library for database queries. to store user input, and is an offshoot of a previous app, `burger`, which used `mySQL` queries. The repo for this app is found here `https://github.com/dirk-kiesewetter/burger`.
 
 ## Summary
 
@@ -66,11 +70,3 @@ Each item has a button that allows the user to chose a burger to 'devour'. Click
 - [Sequelize npm package](https://www.npmjs.com/package/sequelize)
 - [Sequelize CLI package](https://www.npmjs.com/package/sequelize-cli)
 - [Twitter Bootstrap CSS framework](http://getbootstrap.com/)
-
-## deployed app:
-
-https://intense-thicket-35887.herokuapp.com/
-
-## screenshot
-
-![Eat-Da-Burger Sequelized](public/assets/images/sequelized_burgers_app.png)
